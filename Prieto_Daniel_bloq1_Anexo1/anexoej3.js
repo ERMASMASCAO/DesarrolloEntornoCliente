@@ -6,5 +6,5 @@ function suma10en10() {
     document.getElementById("suma").value = valor;
 }
 function iniciar() {
-    
+    document.getElementById("suma").value = 0;
 }

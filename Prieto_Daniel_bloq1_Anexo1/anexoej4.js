@@ -6,6 +6,6 @@ function numeroAleatorio() {
     if (numero1al10 == valor) {
         alert("Enhorabuena has acertado el numero");
     } else {
-        alert("No has acertadoo");
+        alert("No has acertado");
     }
 }

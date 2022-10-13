@@ -13,14 +13,14 @@ function referenciasEnlaces() {
     alert(texto);
 }
 function referenciasEnlacesParrafos() {
-    var enlaces = document.getElementsByTagName('p')
+    var enlaces = document.getElementsByTagName('p');
     var texto = "";
     for (var i = 0 ;i < enlaces.length; i++){
-        var aes = enlaces[i].children
+        var aes = enlaces[i].getElementsByTagName('a');
             for (let x = 0; x < aes.length; x++) {
-                const enlace = aes[i].getAttribute("href");
-                    texto += "Parrafo:  "+i+" " + enlace[i] + "ª\n";
+                    texto += "Parrafo:  "+i+" " + aes[x].href + "ª\n";
             }
+            
     }
 
     alert(texto);

@@ -19,11 +19,10 @@ function referenciasEnlacesParrafos() {
         var aes = enlaces[i].getElementsByTagName('a');
             for (let x = 0; x < aes.length; x++) {
                     texto += "Parrafo:  "+i+" " + aes[x].href + "ª\n";
-            }
-            
+            } 
     }
+alert(texto);
 
-    alert(texto);
 }
 function cambiarColor(color) {
     var parrarfo = document.getElementsByTagName('p');

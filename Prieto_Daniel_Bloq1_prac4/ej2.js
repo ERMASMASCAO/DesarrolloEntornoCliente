@@ -1,10 +1,12 @@
-function grande(element) {
-    element.style.fontSize = '16pt';
+function grande() {
+    document.getElementById("parrafo").style.fontSize = '16pt';
 
 }
-function pequeno(element) {
-   element.style.fontSize = '12pt';
+function pequeno() {
+    document.getElementById("parrafo").style.fontSize = '12pt';
 
 }
-document.getElementById("parrafo").onmouseover(grande);
-document.getElementById("parrafo").onmouseover(pequeno);
+window.onload = function(){
+document.getElementById("parrafo").onmouseover=grande;
+document.getElementById("parrafo").onmouseout=pequeno;
+}

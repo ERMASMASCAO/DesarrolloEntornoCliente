@@ -5,8 +5,8 @@ var elEvento = elEvento || window.event;
         case 'mouseover':
             this.style.fontSize='16pt';
             break;
-    case"mouseout":
-        this.style.fontSize='12pt';
+        case"mouseout":
+            this.style.fontSize='12pt';
             break;
     }
 }

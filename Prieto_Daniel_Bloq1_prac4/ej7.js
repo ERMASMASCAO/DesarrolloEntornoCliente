@@ -10,9 +10,17 @@ function muestraReloj() {
   if(minutos < 10) { minutos = '0' + minutos; }
   if(segundos < 10) { segundos = '0' + segundos; }
 
-  document.getElementById("reloj").innerHTML = horas+':'+minutos+':'+segundos;
+  document.getElementById("reloj").innerHTML = horas + ':' + minutos + ':'+ segundos;
 }
 
 window.onload = function() {
   setInterval(muestraReloj, 1000);
 }
+  var bPreguntar = true;
+  window.onbeforeunload = preguntarAntesDeSalir;
+  function preguntarAntesDeSalir(){
+    if (bPreguntar)
+      return "";
+
+}
+

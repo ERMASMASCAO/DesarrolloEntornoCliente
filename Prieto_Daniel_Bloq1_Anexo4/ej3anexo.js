@@ -1,0 +1,1 @@
+onclick="alert('x: '.concat(event.clientX - this.offsetLeft, '\ny: ', event.clientY - this.offsetTop));"

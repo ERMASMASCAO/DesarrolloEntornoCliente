@@ -4,13 +4,22 @@
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <title>ej1anexo</title>
 
-
+<style type='text/css'>
+    div{position:relative; width:100px; height:100px; border:1px solid #000;}
+    button{position:absolute; bottom:0; border:1px solid #000;}
+    </style>
+    
 <script type="text/javascript" src="ej1anexo.html">
 </script>
 </head>
 
 <body>
-    
+    <div onclick="alert('x: '.concat(event.clientX - this.offsetLeft, '\ny: ', event.clientY - this.offsetTop));">
+        <button type="button" onclick="with(this.parentNode.style){
+        height = Math.round(Math.random() * screen.height) + 'px';
+        width = Math.round(Math.random() * screen.width) + 'px';
+        }">tamaño</button>
+    </div>
     
 <noscript>Error java <strong></strong></noscript>
 </body>

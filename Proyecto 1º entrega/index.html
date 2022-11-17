@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="Practica de HTML5 donde estamos aprendiendo las etiquetas">
+    <meta name="author" content="Hannah Ford"/>
+    <link rel="stylesheet" media="screen" href="css/style.css" type="text/css" />
+    <link rel="icon" type="image/jpg" href="audioyvideo/android-icon-192x192.png "/>
+    <link rel="stylesheet" media="screen" type="text/css" href="css/style.css" />
+    <script type="text/javascript" src="pagina.js"></script>
+
+    <title>My Flower Blog</title>
+</head>
+
+
+<body>
+  
+    <header>
+        <h1>The Flower Blog</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Blog</a></li><!--Linkeado a si mismo-->
+            <li><a href="#">About</a></li>
+            <li><a href="register.html">Register</a></li><!--Formulario de registro-->
+            <li><a href="contacto.html">Contact</a></li><!--Formulario para contactar-->
+            <li class="subscribe"><a href="#">Subscribe via. RSS</a></li>
+        </ul>
+    </nav>
+    <section id="intro">
+		<!-- Introduction -->
+		<header>
+			<h2>Do you love flowers as much as we do?</h2>
+		</header>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+			  ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
+    </section>
+    <section id="content"> <!--Cambiado-->
+      <article id="mainContent"><!--Cambiado-->
+        <section>
+            <!-- Main content area -->
+            <article class="blogPost">
+                <header>
+                    <h2>This is the title of a blog post</h2>
+                    <p>Posted on <time datetime="2009-06-29T23:31:45+01:00">June 29th 2009</time> by <a href="#">Mads Kjaer</a> - <a href="#comments">3 comments</a></p>
+                </header>
+                <section> <!--Cambiado-->
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod tellus eu orci
+                    imperdiet nec rutrum lacus blandit. Cras enim nibh, sodales ultricies elementum vel,
+                    fermentum id tellus. Proin metus odio, ultricies eu pharetra dictum, laoreet id odio.
+                    Curabitur in odio augue. Morbi congue auctor interdum. Phasellus sit amet metus justo.
+                    Phasellus vitae tellus orci, at elementum ipsum. In in quam eget diam adipiscing condimentum.
+                    Maecenas gravida diam vitae nisi convallis vulputate quis sit amet nibh. Nullam ut velit tortor.
+                    Curabitur ut elit id nisl volutpat consectetur ac ac lorem. Quisque non elit et elit lacinia
+                    lobortis nec a velit. Sed ac nisl sed enim consequat porttitor.
+                  </p>
+                  <img src="img/flower.png" alt="Flower" />
+                  <audio src="audioyvideo/aves_16.mp3" controls="controls"></audio>
+                  <p>
+                    Pellentesque ut sapien arcu, egestas mollis massa. Fusce lectus leo, fringilla at aliquet
+                     sit amet, volutpat non erat. Aenean molestie nibh vitae turpis venenatis vel accumsan nunc
+                     tincidunt. Suspendisse id purus vel felis auctor mattis non ac erat. Pellentesque sodales
+                     venenatis condimentum. Aliquam sit amet nibh nisi, ut pulvinar est. Sed ullamcorper nisi
+                     vel tortor volutpat eleifend. Vestibulum iaculis ullamcorper diam consectetur sagittis.
+                     Quisque vitae mauris ut elit semper condimentum varius nec nisl. Nulla tempus porttitor
+                     dolor ac eleifend. Proin vitae purus lectus, a hendrerit ipsum. Aliquam mattis lacinia
+                     risus in blandit.
+                  </p>
+                  <p>
+                    Vivamus vitae nulla dolor. Suspendisse eu lacinia justo. Vestibulum a felis ante,
+                    non aliquam leo. Aliquam eleifend, est viverra semper luctus, metus purus commodo elit,
+                    a elementum nisi lectus vel magna. Praesent faucibus leo sit amet arcu vehicula sed
+                    facilisis eros aliquet. Etiam sodales, enim sit amet mollis vestibulum, ipsum sapien
+                    accumsan lectus, eget ultricies arcu velit ut diam. Aenean fermentum luctus nulla, eu
+                    malesuada urna consequat in. Pellentesque habitant morbi tristique senectus et netus et
+                    malesuada fames ac turpis egestas. Pellentesque massa lacus, sodales id facilisis ac,
+                    lobortis sed arcu. Donec hendrerit fringilla ligula, ac rutrum nulla bibendum id. Cras
+                    sapien ligula, tincidunt eget euismod nec, ultricies eu augue. Nulla vitae velit sollicitudin
+                    magna mattis eleifend. Nam enim justo, vulputate vitae pretium ac, rutrum at turpis. Aenean
+                    id magna neque. Sed rhoncus aliquet viverra.
+                  </p>
+                </section>
+            </article>
+        </section>
+        <section id="comments">
+            <header>
+                <h3>Comments</h3>
+            </header>
+            <article>
+                <header>
+                    <a href="#">George Washington</a> on <time datetime="2009-06-29T23:35:20+01:00">June 29th 2009 at 23:35</time>
+                </header>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                  labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
+            </article>
+            <article>
+                <header>
+                    <a href="#">Benjamin Franklin</a> on <time datetime="2009-06-29T23:40:09+01:00">June 29th 2009 at 23:40</time>
+                </header>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                  et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
+            </article>
+        </section>
+        <section>
+          <header>
+            <h3>Mapa </h3>
+          </header>
+          <article>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1112.4954040472855!2d-0.03851877763530998!3d39.98534258686217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sfloristeria!5e0!3m2!1ses!2ses!4v1665472825382!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </article>
+        </section>
+      </article>
+      <aside>
+          <!-- Sidebar -->
+      		<section>
+      			<header>
+      				<h3>Categories</h3>
+      			</header>
+      			<ul>
+      				<li><a href="#">Lorem ipsum dolor</a></li>
+      				<li><a href="#">Sit amet consectetur</a></li>
+      				<li><a href="#">Adipisicing elit sed</a></li>
+      				<li><a href="#">Do eiusmod tempor</a></li>
+      				<li><a href="#">Incididunt ut labore</a></li>
+      			</ul>
+      		</section>
+      		<section>
+      			<header>
+      				<h3>Archives</h3>
+      			</header>
+      			<ul>
+      				<li><a href="#">December 2008</a></li>
+      				<li><a href="#">January 2009</a></li>
+      				<li><a href="#">February 2009</a></li>
+      				<li><a href="#">March 2009</a></li>
+      				<li><a href="#">April 2009</a></li>
+      				<li><a href="#">May 2009</a></li>
+      				<li><a href="#">June 2009</a></li>
+      			</ul>
+            
+          <video width="240" height="420" controls>
+            <source src="audioyvideo/Rosa - 3654(2).mp4" type="video/mp4">
+          </video>
+      </aside>
+    </section>
+    <footer>
+        <!-- Footer -->
+    		<div>
+    			<section id="about">
+    				<header>
+    					<h3>About</h3>
+    				</header>
+    				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+              labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+              <a href="#">laboris nisi ut aliquip</a> ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+              occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+    			</section>
+    			<section id="blogroll">
+    				<header>
+    					<h3>Blogroll</h3>
+    				</header>
+    				<ul>
+    					<li><a href="#">NETTUTS+</a></li>
+    					<li><a href="#">FreelanceSwitch</a></li>
+    					<li><a href="#">In The Woods</a></li>
+    					<li><a href="#">Netsetter</a></li>
+    					<li><a href="#">PSDTUTS+</a></li>
+    				</ul>
+    			</section>
+    			<section id="popular">
+    				<header>
+    					<h3>Popular</h3>
+    				</header>
+    				<ul>
+    					<li><a href="#">This is the title of a blog post</a></li>
+    					<li><a href="#">Lorem ipsum dolor sit amet</a></li>
+    					<li><a href="#">Consectetur adipisicing elit, sed do eiusmod</a></li>
+    					<li><a href="#">Duis aute irure dolor</a></li>
+    					<li><a href="#">Excepteur sint occaecat cupidatat</a></li>
+    					<li><a href="#">Reprehenderit in voluptate velit</a></li>
+    					<li><a href="#">Officia deserunt mollit anim id est laborum</a></li>
+    					<li><a href="#">Lorem ipsum dolor sit amet</a></li>
+    				</ul>
+    			</section>
+    		</div>
+    </footer>
+</body>
+</html>

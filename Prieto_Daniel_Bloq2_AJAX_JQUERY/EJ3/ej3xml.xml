@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Personas>
+    <persona>
+        <name>Daniel</name>
+        <description>Alto y guapo</description>
+        <sex>H</sex>
+    </persona>
+    <persona>
+        <name>Rodrigo</name>
+        <description>Alto y feo</description>
+        <sex>H</sex>
+    </persona>
+    <persona>
+        <name>Sofía</name>
+        <description>Bajita y guapa</description>
+        <sex>M</sex>
+    </persona>
+</personas>

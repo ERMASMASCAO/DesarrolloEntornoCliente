@@ -1,0 +1,1 @@
+Hola esto es un ejemplo para mostrar texto clicando un boton con jquery.

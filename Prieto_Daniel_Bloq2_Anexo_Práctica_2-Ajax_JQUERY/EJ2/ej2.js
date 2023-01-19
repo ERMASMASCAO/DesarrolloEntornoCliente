@@ -1,11 +1,11 @@
 $(document).ready(function(){
     $("#boton").click(function(){
-        $.post("ej2.php",{ 
+        $.post("ej2.pp",{
             
         }).done(function(mostrarPHP){
             $("#contenedor").html(mostrarPHP);
-        }).fail(function(){
-            $("#contenedor").html("Upss algo a ido mal")
-        })
+        }).fail( function(jqXHR) {
+                alert(jqXHR.status);
+        });
     })
 })

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <head>
+            <title>EJERCICIO4 CON SLIDER</title>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+            <script "text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+            <script "text/javascript" src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+        </head>
+        <div class="slider">
+            <div><img src="aa.jpeg" title="Title of image1"></div>
+            <div><img src="ee.jpeg" title="Title of image2"></div>
+            <div><img src="índice.jpeg" title="Title of image3"></div>
+            <script type="text/javascript" src="ej4.js"></script>
+
+        </div>
+        <script>
+            $('.slider').bxSlider({
+                autoControls: true,
+                auto: true,
+                pager: true,
+                slideWidth: 800,
+                mode: 'fade',
+                captions: true,
+                speed: 1000
+            });
+        </script>
+    </body>
+</html>

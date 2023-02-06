@@ -12,7 +12,7 @@
   };
 })(jQuery);
 $(function() {
-  $( "#ccordion" ).accordion();
+  $( "#accordion" ).accordion();
 });
 
 $(document).ready(function() {

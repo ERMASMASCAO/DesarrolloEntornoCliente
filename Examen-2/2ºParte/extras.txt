@@ -1,0 +1,5 @@
+Los extras que se incluyen en la oferta son: -Visita guiada en todas las excursiones -Todos los gastos incluidos -Seguro de viaje incluido.
+
+
+
+Debes crear una página que te muestre las ofertas que tiene la agencia de viajes. En un principio puedes seleccionar entre un viaje a marruecos con un checkbox, cuyo precio es de 600 y un viaje a la India, cuyo precio es de 1000. El campo texto dónde aparecera el precio del viaje elegido inicialmente no está en pantalla, se creará dinámicamente al seleccionar uno de los dos checkbox. Hazme este programa en un fichero html y en otro js en jquery utilizando.
